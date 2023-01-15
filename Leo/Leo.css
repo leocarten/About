@@ -145,6 +145,8 @@ ul {
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
+
+
   .newHeading{
     font-weight: bold;
     color: #283746;
@@ -157,6 +159,7 @@ ul {
     padding-top: 30px;
     padding-right: 30px;
   }
+    
 
   .gridHeading{
     padding-left: 10px;
@@ -368,4 +371,5 @@ a:hover{
   display: block;
   color: red;
 }
+
 
