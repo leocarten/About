@@ -1,15 +1,258 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="Leo.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="Leo.js"></script>
 </head>
 <body>
 
+    <style>
+        @media (min-width:300px) and (max-width:475px){
+            nav{
+                height: 25px !important;
+                width: 290px !important;
+            }
+            nav a{
+                line-height: 25px !important;
+                font-size: 10px !important;
+            }
+            a:nth-child(1) {
+	            width: 65px !important;
+                }
+            a:nth-child(2) {
+                width: 75px !important;
+            }
+            a:nth-child(3) {
+                width: 70px !important;
+            }
+            a:nth-child(4) {
+                width: 80px !important;
+            }
+
+            nav .start-home, a:nth-child(1):hover~.animation {
+                width: 65px !important;
+                left: 0;
+                background-color: #4acb41;
+            }
+            nav .start-about, a:nth-child(2):hover~.animation {
+                width: 75px !important;
+                left: 65px !important;
+                background-color: #e1c053;
+            }
+            nav .start-blog, a:nth-child(3):hover~.animation {
+                width: 60px !important;
+                left: 145px !important;
+                background-color: #e156d7;
+            }
+            nav .start-portefolio, a:nth-child(4):hover~.animation {
+                width: 80px !important;
+                left: 210px !important;
+                background-color: #db748a;
+            }
+            .socials{
+                display: inline-block;
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+            .newHeading{
+                font-size: 14px !important;
+            }
+            .AbMe{
+                font-size: 10px !important;
+            }
+            h1{
+                font-size: 18px !important;
+            }
+            .gridHeading{
+                font-size: 12px !important;
+                color: black;
+            }
+            .gridBody{
+                font-size: 10px !important;
+                color: black;
+            }
+        }
+    </style>
+
+    <style>
+        @media (max-width: 550px){
+            h1{
+                font-size: 22px;
+            }
+            nav{
+                height: 30px;
+                width: 350px;
+
+            }
+            nav a{
+                line-height: 30px;
+                font-size: 12px;
+            }
+            a:nth-child(1) {
+	            width: 80px;
+                }
+            a:nth-child(2) {
+                width: 90px;
+            }
+            a:nth-child(3) {
+                width: 80px;
+            }
+            a:nth-child(4) {
+                width: 100px;
+            }
+
+            nav .start-home, a:nth-child(1):hover~.animation {
+                width: 80px;
+                left: 0;
+                background-color: #4acb41;
+            }
+            nav .start-about, a:nth-child(2):hover~.animation {
+                width: 90px;
+                left: 80px;
+                background-color: #e1c053;
+            }
+            nav .start-blog, a:nth-child(3):hover~.animation {
+                width: 80px;
+                left: 170px;
+                background-color: #e156d7;
+            }
+            nav .start-portefolio, a:nth-child(4):hover~.animation {
+                width: 100px;
+                left: 250px;
+                background-color: #db748a;
+            }
+            .socials{
+                display: inline-block;
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+            .color{
+                text-align: right;
+                font-size: 25px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color1{
+                text-align: right;
+                font-size: 25px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color2{
+                text-align: right;
+                font-size: 25px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color3{
+                text-align: right;
+                font-size: 25px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .newSection{
+                padding-left: 5px;
+                padding-top: 5px;
+                padding-right: 5px;
+            }
+            .newHeading{
+                font-size: 16px ;
+            }
+            .AbMe{
+                font-size: 12px ;
+            }
+            .gridHeading{
+                font-size: 14px;
+                color: black;
+            }
+            .gridBody{
+                font-size: 12px;
+                color: black;
+            }
+
+        }
+    </style>
+
+    <style>
+        @media (min-width:551px) and (max-width:900px){
+            h1{
+                font-size: 26px;
+            }
+            nav{
+                height: 30px;
+            }
+            nav a{
+                line-height: 30px;
+                font-size: 12px;
+            }
+        }
+    </style>
+
+    <style>
+    @media (min-width: 1367px){
+    .newHeading{
+        font-size: 30px !important;
+    }
+    .AbMe{
+        font-size: 20px !important;
+    }
+    .color{
+        text-align: right;
+        font-size: 50px;
+        transition: transform .3s; 
+        color: #283746;
+    }
+    .color1{
+        text-align: right;
+        font-size: 50px;
+        transition: transform .3s; 
+        color: #283746;
+    }
+    .color2{
+        text-align: right;
+        font-size: 50px;
+        transition: transform .3s; 
+        color: #283746;
+    }
+    .color3{
+        text-align: right;
+        font-size: 50px;
+        transition: transform .3s; 
+        color: #283746;
+    }
+    }
+    </style>
+
+    <style>
+        @media (min-width: 1500px){
+        h1{
+            font-size: 50px;
+        }
+        .newHeading{
+            font-size: 35px !important;
+        }
+        .AbMe{
+            font-size: 25px !important;
+        }
+        .gridHeading{
+            font-size: 20px;
+            color: black;
+            }
+            .gridBody{
+            font-size: 15px;
+            color: black;
+            }
+        }
+    </style>
+
 <div style="display: flex; align-items: center;" id="top">
-    <img class = "addPadImg" style = "border-radius: 50%;" src="Me.jpeg" alt="Girl in a jacket" width="95" height="95">
+    <img class = "addPadImg" style = "border-radius: 50%;" src="Me.jpeg" alt="Me!" width="85" height="85">
     <div class="socials">
         <a class="color" href="http://linkedin.com/in/leo-carten-925535195" target="_blank"><i class="fa fa-linkedin-square" style="padding-left: 1px; padding-right: 1px;"></i></a>
         <a class="color1" href="https://github.com/leocarten" target="_blank"><i class="fa fa-github-square" style="padding-left: 1px; padding-right: 10px;"></i></a>
@@ -50,7 +293,7 @@
     <div class="grid-container">
         <div>
             <a href="https://elrond-apes.github.io/Elrond/Explorer/Peer-to-peer-trans.html" target="_blank">
-            <h2 class="gridHeading">Blockchain Explorer</h2>
+            <h2 class="gridHeading">Blockchain Explorer <i class="fa fa-external-link"></i></h2>
             <h2 class="gridBody">A block-chain explorer is something users can use to search the history of any transaction that has ever happened on-chain. My explorer allows users to enter a wallet address, and will return all transactions done in peer-to-peer fashion (without the use of smart-contracts) for a specific on-chain NFT.</h2>
             </a>
         </div>
