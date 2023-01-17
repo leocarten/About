@@ -79,7 +79,7 @@ h1 {
 	text-align: center;
 	font-size: 40px;
 	color: #283746;
-	text-shadow: 1px 1px 2px #5398a6;
+	text-shadow: .5px .5px .5px #abd913;
 }
 
 
@@ -145,8 +145,6 @@ ul {
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
-
-
   .newHeading{
     font-weight: bold;
     color: #283746;
@@ -159,7 +157,6 @@ ul {
     padding-top: 30px;
     padding-right: 30px;
   }
-    
 
   .gridHeading{
     padding-left: 10px;
@@ -371,5 +368,4 @@ a:hover{
   display: block;
   color: red;
 }
-
 
