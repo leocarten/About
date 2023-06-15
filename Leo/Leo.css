@@ -266,10 +266,9 @@ ul {
 }
 
 .color:hover{
-  -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2); 
-  transform: scale(1.2); 
-  font-size: 35px;
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
   -webkit-animation:colorchange1 10s infinite alternate;
 }
 
@@ -313,15 +312,14 @@ ul {
 
 .color1{
   text-align: right;
-  transition: transform .3s; 
+  /* transition: transform .3s;  */
   color: #283746;
 }
 
 .color1:hover{
-  -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2); 
-  transform: scale(1.2); 
-  font-size: 35px;
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
   -webkit-animation:colorchange1 10s infinite alternate;
 }
 
@@ -331,10 +329,9 @@ ul {
   color: #283746;
 }
 .color2:hover{
-  -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2); 
-  transform: scale(1.2); 
-  font-size: 35px;
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
   -webkit-animation:colorchange1 10s infinite alternate;
 }
 
@@ -344,10 +341,9 @@ ul {
   color: #283746;
 }
 .color3:hover{
-  -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2); 
-  transform: scale(1.2); 
-  font-size: 35px;
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
   -webkit-animation:colorchange1 10s infinite alternate;
 }   
 
