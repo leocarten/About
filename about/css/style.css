@@ -10,6 +10,7 @@
   font-size: 20px;
   text-align: left !important;
   color: rgb(213, 213, 213);
+  font-family: 'Courier New', Courier, monospace !important;
 }
 
 .quote{
@@ -112,13 +113,12 @@ img {
 }
 
 .sectionStyle{
-  background-color: rgb(189, 195, 197); 
-  background-color: #333 !important;
-  background-image: -moz-radial-gradient(center center, circle cover, rgb(189, 195, 197), rgb(103, 106, 106) 100%) !important;
-  background-image: -webkit-radial-gradient(center center, circle cover, rgb(189, 195, 197), rgb(103, 106, 106) 100%) !important;
-  background-image: -o-radial-gradient(center center, circle cover, rgb(189, 195, 197), rgb(103, 106, 106) 100%) !important;
-  background-image: -ms-radial-gradient(center center, circle cover, rgb(189, 195, 197), rgb(103, 106, 106) 100%) !important;
-  background-image: radial-gradient(center center, circle cover, rgb(189, 195, 197), rgb(103, 106, 106) 100%) !important;
+  background-color: #fff !important;
+  background-image: -moz-radial-gradient(center center, circle cover, #fff, #cdcbcb 100%) !important;
+  background-image: -webkit-radial-gradient(center center, circle cover, #fff, #cdcbcb 100%) !important;
+  background-image: -o-radial-gradient(center center, circle cover, #fff, #cdcbcb 100%) !important;
+  background-image: -ms-radial-gradient(center center, circle cover, #fff, #cdcbcb 100%) !important;
+  background-image: radial-gradient(center center, circle cover, #fff, #cdcbcb 100%) !important;
   padding-left: 20px;
   padding-right: 20px; 
   padding-bottom: 50px;
@@ -330,10 +330,10 @@ pre {
     offset-distance: 0%;
   }
   25% {
-    background: #ffffff;
+    background: #000000;
   }
   75% {
-    background: #ffffff;
+    background: #000000;
   }
   100% {
     offset-distance: 100%;
@@ -353,10 +353,10 @@ pre {
     left: -8px;
   }
   25% {
-    background: #ffffff;
+    background: #000000;
   }
   75% {
-    background: #ffffff;
+    background: #000000;
   }
   50.0001%, 100% {
     left: auto;
@@ -378,12 +378,12 @@ pre {
 }
 #preloader {
   /* background: #000000; */
-  background-color: #333 !important;
-  background-image: -moz-radial-gradient(center center, circle cover, #333333, #0d1218 100%) !important;
-  background-image: -webkit-radial-gradient(center center, circle cover, #333333, #0d1218 100%) !important;
-  background-image: -o-radial-gradient(center center, circle cover, #333333, #0d1218 100%) !important;
-  background-image: -ms-radial-gradient(center center, circle cover, #333333, #0d1218 100%) !important;
-  background-image: radial-gradient(center center, circle cover, #333333, #0d1218 100%) !important;
+  background-color: #ffffff !important;
+  background-image: -moz-radial-gradient(center center, circle cover, #ffffff, #d5d3d3 100%) !important;
+  background-image: -webkit-radial-gradient(center center, circle cover, #ffffff, #d5d3d3 100%) !important;
+  background-image: -o-radial-gradient(center center, circle cover, #ffffff, #d5d3d3 100%) !important;
+  background-image: -ms-radial-gradient(center center, circle cover, #ffffff, #d5d3d3 100%) !important;
+  background-image: radial-gradient(center center, circle cover, #ffffff, #d5d3d3 100%) !important;
   height: 100%;
   position: fixed;
   width: 100%;
@@ -416,7 +416,7 @@ background-image: radial-gradient(center center, circle cover, #333333, #0d1218 
 header.desktop-header-1 {
   color: #FFF;
   border-right: solid .5px rgba(255, 255, 255, 0.9);
-  background: #161A1E;
+  background: rgb(0, 0, 0);
   padding: 50px 40px 40px;
   position: fixed;
   left: 0;
@@ -674,7 +674,7 @@ header.desktop-header-2.light .vertical-menu li i {
 }
 
 header.mobile-header-1 {
-  background: #161A1E;
+  background: #000000;
   display: none;
   padding: 10px 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -901,14 +901,19 @@ section {
   position: relative;
 }
 
+.important{
+  color:black;
+  text-decoration: underline;
+}
+
 section.home {
   /* background: #353353; */
-  background-color: #333 !important;
-  background-image: -moz-radial-gradient(center center, circle cover, #333333, #0d1218 100%) !important;
-  background-image: -webkit-radial-gradient(center center, circle cover, #333333, #0d1218 100%) !important;
-  background-image: -o-radial-gradient(center center, circle cover, #333333, #0d1218 100%) !important;
-  background-image: -ms-radial-gradient(center center, circle cover, #333333, #0d1218 100%) !important;
-  background-image: radial-gradient(center center, circle cover, #333333, #0d1218 100%) !important;
+  background-color: #fff !important;
+  background-image: -moz-radial-gradient(center center, circle cover, #fff, #cdcbcb 100%) !important;
+  background-image: -webkit-radial-gradient(center center, circle cover, #fff, #cdcbcb 100%) !important;
+  background-image: -o-radial-gradient(center center, circle cover, #fff, #cdcbcb 100%) !important;
+  background-image: -ms-radial-gradient(center center, circle cover, #fff, #cdcbcb 100%) !important;
+  background-image: radial-gradient(center center, circle cover, #fff, #cdcbcb 100%) !important;
   padding: 0;
   height: 100vh;
   min-height: 100vh;
@@ -2327,7 +2332,7 @@ body.dark footer.footer {
 
 .slick-dots li button:before {
   content: "";
-  background: #D4D4FF;
+  background: white;
   border-radius: 3px;
   opacity: 1;
   height: 6px;
