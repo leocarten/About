@@ -127,11 +127,11 @@ img {
 .sectionStyle2{
   background-color: rgb(189, 195, 197); 
   background-color: #333 !important;
-  background-image: -moz-radial-gradient(center center, circle cover, rgb(224, 227, 228), rgb(161, 165, 165) 100%) !important;
-  background-image: -webkit-radial-gradient(center center, circle cover, rgb(224, 227, 228), rgb(161, 165, 165) 100%) !important;
-  background-image: -o-radial-gradient(center center, circle cover, rgb(224, 227, 228), rgb(161, 165, 165) 100%) !important;
-  background-image: -ms-radial-gradient(center center, circle cover, rgb(224, 227, 228), rgb(161, 165, 165) 100%) !important;
-  background-image: radial-gradient(center center, circle cover, rgb(224, 227, 228), rgb(161, 165, 165) 100%) !important;
+  background-image: -moz-radial-gradient(center center, circle cover, rgb(224, 227, 228), rgb(182, 185, 185) 100%) !important;
+  background-image: -webkit-radial-gradient(center center, circle cover, rgb(224, 227, 228), rgb(182, 185, 185) 100%) !important;
+  background-image: -o-radial-gradient(center center, circle cover, rgb(224, 227, 228), rgb(182, 185, 185) 100%) !important;
+  background-image: -ms-radial-gradient(center center, circle cover, rgb(224, 227, 228), rgb(182, 185, 185) 100%) !important;
+  background-image: radial-gradient(center center, circle cover, rgb(224, 227, 228), rgb(182, 185, 185) 100%) !important;
   padding-left: 20px;
   padding-right: 20px; 
   padding-bottom: 50px;

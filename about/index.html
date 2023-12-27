@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -101,12 +102,18 @@
 	<!-- section home -->
 	<section id="about" class="home d-flex align-items-center">
 		<div class="container">
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 20px; font-family: 'Courier New', Courier, monospace !important;">Hello &#128075; I'm Leo <span style="vertical-align: middle; font-size: 18px; color: rgb(124, 122, 122);">I program things </span></h3>
+            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 20px; font-family: 'Courier New', Courier, monospace !important;">Hello &#128075; I'm Leo </h3>
+            <div class="typing-container" style="padding-left: 13px;">
+                <p>
+                    <span style="font-weight: bold; font-size: 18px; color: #24282c; font-family: 'Courier New', Courier, monospace;">I like to:</span>
+                    <span style="font-weight: bold; font-size: 18px; color: rgb(124, 122, 122); font-family: 'Courier New', Courier, monospace;" id="typing-text"></span>
+                </p>
+            </div>
             <h6 class="section-title wow fadeInUp" style="color: #24282c;font-size: 18px; font-family: 'Courier New', Courier, monospace !important;">Given the rapid evolution of technology, I pride myself with the willingness and eagerness to learn and adapt to <span class="important">new</span> tools, frameworks, and technologies. History shows that technology evolves at a quick rate, and staying current in the field is essential to remain relevant. </h6>
             <h6 class="section-title wow fadeInUp" style="color: #24282c;font-size: 18px; font-family: 'Courier New', Courier, monospace !important; padding-top: 10px;">Currently a Senior at Plymouth State University pursuing a degree in Computer Science and Mathematics, I bring over <span class="important">5 years</span> of programming experience to the table. My academic journey paired with extracurricular actvities that I indulge in have equipped me with a diverse skill set!</h6>
-            <h6 class="section-title wow fadeInUp" style="color: #24282c;font-size: 18px; font-family: 'Courier New', Courier, monospace !important; padding-top: 10px;">My <span class="important">interests</span> include: Full Stack Developement, Application Development, and Machine Learning</h6>
+            <h6 class="section-title wow fadeInUp" style="color: #24282c;font-size: 18px; font-family: 'Courier New', Courier, monospace !important; padding-top: 10px;">My <span class="important">interests</span> include: Full Stack Developement, Application Development, and Machine Learning.</h6>
             
-            <div class="intro">
+            <div class="intro" style="padding-top: 15px;">
                 <ul class="social-icons light list-inline mb-0 mt-4">
                     <li class="list-inline-item"><a href="https://github.com/leocarten" target="_blank"><i class="fab fa-github-square" style="font-size: 32px; color: black;"></i></a></li>
                     <li class="list-inline-item"><a href="https://linkedin.com/in/leo-carten-925535195" target="_blank"><i class="fab fa-linkedin" style="font-size: 32px; color: black;"></i></a></li>
@@ -116,23 +123,38 @@
 
         </div>
     </section>
-      
-      
-    <section id="skills" class="home d-flex align-items-center">
-		<div class="container">
+    <script src="js/typing.js"></script>
+
+    <section id="skills" class="sectionStyle2">
+        <div class="container">
             <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 20px; font-family: 'Courier New', Courier, monospace !important;">&#128293; Skillset</h3>
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">- Full Stack Application Development</h3>
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">- Server Deployments [Server Debugging, Hosting, Automatic Deployment Scripting]</h3>
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">- Database Management Systems</h3>
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">- Tailwind & Bootstrap</h3>
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">- Java</h3>
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">- Python</h3>
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">- C / C++</h3>
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">- Javascript</h3>
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">- Ruby</h3>
-            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">- Git</h3>
+                <div class="timeline rounded shadow-dark padding-30 overflow-hidden" style="box-shadow: 2px 2px #161A1E; width: 100%; background-color: rgb(224, 224, 224); padding-left: 10px !important;">
+                    <div class="timeline-container wow fadeInUp">
+                        <div class="content" style="font-family: 'Courier New', Courier, monospace;">
+                            <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">Aside from bringing a <span class="important">young</span>, <span class="important">talented</span>, and <span class="important">curious mind</span> to your team, I also offer experience in:</h3>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10); padding-left: 5px;"></i> Full Stack Application Development </p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10); padding-left: 5px;"></i> Server Deployments [Server Debugging, Hosting, Automatic Deployment Scripting]</p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10); padding-left: 5px;"></i> Database Management Systems [SQL]</p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10);padding-left: 5px"></i> UI Design [Tailwind & Bootstrap]</p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10); padding-left: 5px"></i> Java </p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10);padding-left: 5px"></i> Python </p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10);padding-left: 5px"></i> C / C++  </p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10);padding-left: 5px"></i> JavaScript </p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10);padding-left: 5px"></i> Ruby</p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10);padding-left: 5px"></i> Git </p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10);padding-left: 5px"></i> Data cleaning and data vizualization </p>
+                            <p style="font-weight: bold; color: #161A1E;"><i class="fa fa-check-square" style="font-size: 16px; vertical-align: middle !important; color: rgb(10, 126, 10);padding-left: 5px"></i> Linux OS </p>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <h3 class="section-title wow fadeInUp" style="color: #161A1E; padding-bottom: 10px; padding-top: 30px;font-family: 'Courier New', Courier, monospace !important; font-size: 18px;">&#128640;  I am constantly looking for ways to <span class="important">enhance</span> my skills by creating side projects, reading books of relevant topics, and staying active in developer communities such as Discord and Reddit.</h3>
+
+
         </div>
     </section>
+
 
       
     <section id="works" class="sectionStyle">
