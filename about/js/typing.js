@@ -1,4 +1,4 @@
-const words = ["Build Full-Stack Applications", "Learn new ways to program", "Read about programming techniques", "Explore Machine Learning"]; 
+const words = ["Build Full-Stack Applications", "Develop Software", "Explore Machine Learning"]; 
 let currentIndex = 0;
 let charIndex = 0;
 let isTyping = true;
